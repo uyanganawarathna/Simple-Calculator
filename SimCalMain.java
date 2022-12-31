@@ -39,6 +39,11 @@ public class SimCalMain {
                 snum = select.nextDouble();
                 c1.dev(fnum,snum);
                 break;
+            case 5:
+                System.out.println("Enter your first number:");
+                fnum = select.nextDouble();
+                c1.square(fnum);
+                
             default:
                 System.out.println("Oooohps!! you entered wrong selection number,Please enter correct selection number!!");
 
