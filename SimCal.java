@@ -20,6 +20,9 @@ public class SimCal {
     public void dev(double a,double b){
         System.out.println("Deviation of two number:-"+(a/b));
     }
+    public void square(double a){
+        System.out.println("Square of you entered number: -"+(a*a));
+    }
 
 
 
