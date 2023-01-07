@@ -6,8 +6,13 @@ public class SimCalMain {
         double snum;
 
         SimCal c1 = new SimCal();
+        System.out.println("If you need to summetion of two numbers, select 1");
+        System.out.println("If you need to subtraction of two numbers, select 2");
+        System.out.println("If you need to multiplication of two numbers, select 3");
+        System.out.println("If you need to deveiatin of two numbers, select 4");
+        System.out.println("If you need to square of number, select 5");
         Scanner select = new Scanner(System.in);
-        System.out.println("Enter selection number:");
+        System.out.println("Enter your selection number:");
         int num = select.nextInt();
 
         switch (num){
