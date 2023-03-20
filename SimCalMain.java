@@ -6,11 +6,11 @@ public class SimCalMain {
         double snum;
 
         SimCal c1 = new SimCal();
-        System.out.println("If you need to summetion of two numbers, select 1");    //for summetion
-        System.out.println("If you need to subtraction of two numbers, select 2");  //for subtraction
-        System.out.println("If you need to multiplication of two numbers, select 3");   //for multiplication
-        System.out.println("If you need to deveiatin of two numbers, select 4");        //for deviation
-        System.out.println("If you need to square of number, select 5");
+        System.out.println("If you need to summetion of two numbers, select 1");    //for calculate to summetion
+        System.out.println("If you need to subtraction of two numbers, select 2");  //for calculate to subtraction
+        System.out.println("If you need to multiplication of two numbers, select 3");   //for calculate to multiplication
+        System.out.println("If you need to deveiatin of two numbers, select 4");        //for calcualte deviation
+        System.out.println("If you need to square of number, select 5");    //for calculate to square number
         Scanner select = new Scanner(System.in);
         System.out.println("Enter your selection number:");
         int num = select.nextInt();
